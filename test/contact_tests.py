@@ -18,11 +18,11 @@ class ContactTests(unittest.TestCase):
         cls.JOSE = "jose"
         cls.JAMES_EMAIL = "james@ufc.com"
         cls.JAMES = "james"
-        cls.james = Contato(cls.JAMES, cls.JAMES_EMAIL)
-        cls.jose = Contato(cls.JOSE, cls.JOSE_EMAIL)
-        cls.mario = Contato(cls.MARIO, cls.MARIO_EMAIL)
-        cls.ana = Contato(cls.ANA, cls.ANA_EMAIL)
-        cls.joaquim = Contato(cls.JOAQUIM, cls.JOAQUIM_EMAIL)
+        cls.james = Contato('james', 'james@ufc.com')
+        cls.jose = Contato('jose', 'jose@ufc.br')
+        cls.mario = Contato('mario', 'mario@ufc.br')
+        cls.ana = Contato('ana', 'ana@ufc.br')
+        cls.joaquim = Contato('joaquim', 'joaquim@ufc.br')
 
         cls.gcont = GContatos()
 

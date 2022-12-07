@@ -18,5 +18,5 @@ class CirculoBase(ABC):
         return 0
 
     @abstractmethod
-    def getNumeroOfContacts(self):
+    def getNumberOfContacts(self):
         pass

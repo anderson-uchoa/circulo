@@ -12,9 +12,9 @@ class CircleTests(unittest.TestCase):
         cls.TRABALHO = "trabalho"
         cls.FAMILIA = "familia"
 
-        cls.familia = Circulo(cls.FAMILIA, 3)
-        cls.trabalho = Circulo(cls.TRABALHO, 3)
-        cls.amigos = Circulo(cls.AMIGOS, 1)
+        cls.familia = Circulo('familia', 3)
+        cls.trabalho = Circulo('trabalho', 3)
+        cls.amigos = Circulo('amigos', 1)
         cls.gcont = GContatos()
 
     def test_adicionarCirculos(self):

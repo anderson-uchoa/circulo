@@ -53,7 +53,7 @@ class ICirculosManager(ABC):
         pass
 
     @abstractmethod
-    def removeCircule(self, idCirculo: str) -> bool:
+    def removeCircle(self, idCirculo: str) -> bool:
         """
         Remove um circulo
         Arguments:

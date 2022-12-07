@@ -44,13 +44,13 @@ class GContatos(IContatosManager, ICirculosManager, ICirculoOperationsManager):
     def updateCircle(self, circulo: CirculoBase) -> bool:
         return False
 
-    def getCircle(self, idCirculo: int) -> CirculoBase:
+    def getCircle(self, idCirculo: str) -> CirculoBase:
         return None
 
     def getAllCircles(self) -> list:
         return None
 
-    def removeCircule(self, idCirculo: str) -> bool:
+    def removeCircle(self, idCirculo: str) -> bool:
         return False
 
     def getNumberOfCircles(self) -> int:
