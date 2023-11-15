@@ -9,6 +9,5 @@ class Circulo(CirculoBase):
     def getNumeroOfContacts(self):
         return 0
 
-
     def setLimite(self, limite: int):
         pass

@@ -8,6 +8,8 @@ from src.cliente.icontatos_manager import IContatosManager
 
 class GContatos(IContatosManager, ICirculosManager, ICirculoOperationsManager):
 
+    def __init__(self):
+        pass
     def createContact(self, id: str, email: str) -> bool:
         return False
 
