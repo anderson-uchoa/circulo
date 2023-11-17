@@ -1,5 +1,5 @@
-from src.cliente.circulo_base import CirculoBase
-from src.cliente.contato_base import ContatoBase
+from src.aluno.base.circulo import Circulo
+from src.aluno.base.contato import Contato
 from src.cliente.icirculo_operations_manager import ICirculoOperationsManager
 from src.cliente.icirculos_manager import ICirculosManager
 from src.cliente.icontatos_manager import IContatosManager
@@ -16,13 +16,13 @@ class GContatos(IContatosManager, ICirculosManager, ICirculoOperationsManager):
     def getAllContacts(self) -> list:
         return None
 
-    def updateContact(self, contato: ContatoBase) -> bool:
+    def updateContact(self, contato: Contato) -> bool:
         return False
 
     def removeContact(self, id: str) -> bool:
         return False
 
-    def getContact(self, id: str) -> ContatoBase:
+    def getContact(self, id: str) -> Contato:
         return None
 
     def getNumberOfContacts(self) -> int:
@@ -43,10 +43,10 @@ class GContatos(IContatosManager, ICirculosManager, ICirculoOperationsManager):
     def createCircle(self, id: str, limite: int) -> bool:
         return False
 
-    def updateCircle(self, circulo: CirculoBase) -> bool:
+    def updateCircle(self, circulo: Circulo) -> bool:
         return False
 
-    def getCircle(self, idCirculo: str) -> CirculoBase:
+    def getCircle(self, idCirculo: str) -> Circulo:
         return None
 
     def getAllCircles(self) -> list:
